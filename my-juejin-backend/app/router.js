@@ -9,4 +9,6 @@ module.exports = app => {
 
   router.get('/category', controller.juejin.getCategory);
   router.get('/queryUser', controller.user.queryUser);
+  router.get('/getUserPins', controller.pins.queryUserPins);
+
 };

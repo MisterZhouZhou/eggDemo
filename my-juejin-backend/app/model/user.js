@@ -10,7 +10,8 @@ module.exports = app => {
             // 可以指定字段映射
             // field: 'id'
         },
-        name: STRING
+        name: STRING,
+        avator: STRING
     }, {
         timestamps: false,
         freezeTableName: true,
